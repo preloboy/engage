@@ -1,15 +1,25 @@
 // import { useState } from 'react'
-import { useState } from 'react';
+// import { useState } from 'react';
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import './App.css'
-import Login from './components/login';
+import Dashboard from './components/dashboard/dashboard';
 
 function App() {
   // const [count, setCount] = useState(0)
-  const [loggedIn, setLoggedIn] = useState(null)
+  // const [loggedIn, setLoggedIn] = useState(null)
+  const theme = createTheme({
+    palette: {
+      mode: 'light',
+    },
+  });
 
   return (
     <>
-      <Login></Login>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Dashboard />
+      </ThemeProvider>
+
     </>
   )
 }
