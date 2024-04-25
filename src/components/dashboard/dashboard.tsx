@@ -1,9 +1,19 @@
-import Sidebar from "./tools/sidebar"
+import { Box, Container } from '@mui/material';
+import Sidebar from './tools/sidebar';
 
-const Dashboard = ()=>{
-    return(
+const Dashboard = () => {
+    return (
         <>
-        <Sidebar />
+            <Container component='div' maxWidth='xl'>
+                <Box display={'flex'} >
+                    <Box>
+                        <Sidebar />
+                    </Box>
+                    <Box>
+                        <h1>test2</h1>
+                    </Box>
+                </Box>
+            </Container>
         </>
     )
 }

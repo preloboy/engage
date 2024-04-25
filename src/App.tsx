@@ -9,7 +9,7 @@ function App() {
   // const [loggedIn, setLoggedIn] = useState(null)
   const theme = createTheme({
     palette: {
-      mode: 'light',
+      mode: 'dark',
     },
   });
 
