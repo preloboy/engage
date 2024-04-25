@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}#root{max-width:100vw;max-height:100vh}.box{width:20vw;height:95vh;overflow:hidden;overflow-y:scroll}.box::-webkit-scrollbar{width:0px}.box:hover::-webkit-scrollbar{width:6px;height:10px}.box::-webkit-scrollbar-thumb{background:#888;border-radius:5px}.box::-webkit-scrollbar-thumb:hover{background:#555}
