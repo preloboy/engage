@@ -1,5 +1,6 @@
 import { Box, Container } from '@mui/material';
 import Sidebar from './tools/sidebar';
+import Home from './screens/home';
 
 const Dashboard = () => {
     return (
@@ -10,7 +11,7 @@ const Dashboard = () => {
                         <Sidebar />
                     </Box>
                     <Box>
-                        <h1>test2</h1>
+                        <Home />
                     </Box>
                 </Box>
             </Container>

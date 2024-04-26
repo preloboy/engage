@@ -81,16 +81,12 @@ const Sidebar = () => {
         const openState = [...open]
         openState[index1] = !openState[index1]
         setOpen(openState)
-        console.log(openState, index1)
-    }
+    };
     const onClickChild = (index2: any) => {
         const openStateChild = [...openChild]
         openStateChild[index2] = !openStateChild[index2]
         setOpenChild(openStateChild)
-        console.log(openStateChild, index2)
-    }
-
-
+    };
 
     return (
         <><CssBaseline />
